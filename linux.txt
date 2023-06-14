@@ -1,0 +1,73 @@
+linux networking commands
+
+
+
+ifconfig - displays network interface configuration.
+ip - displays and configures IP network addresses.
+route - displays and modifies the IP routing table.
+netstat - displays network connections, routing tables, and statistics.
+ping - sends an ICMP Echo request to a target host or IP address to check for connectivity.
+traceroute - displays the path that network packets take from one host to another.
+nslookup - queries DNS servers for information about domain names or IP addresses.
+dig - similar to nslookup, but provides more detailed information.
+ssh - secure remote access to a Linux system or network device.
+telnet - unsecure remote access to a Linux system or network device.
+ftp - file transfer protocol used to transfer files over a network.
+wget - command-line utility for downloading files from the internet.
+curl - command-line utility for transferring data from or to a server.
+iptables - command-line firewall tool to configure and manage network traffic.
+tcpdump - network packet analyzer for capturing and analyzing network traffic.
+
+
+linux copy commands?
+
+cp - This is the most common command used to copy files and directories. Syntax: cp [OPTIONS] SOURCE DESTINATION
+
+mv - This command is used to move files and directories from one location to another. Syntax: mv [OPTIONS] SOURCE DESTINATION
+
+rsync - This command is used to copy files and directories between two systems over the network. Syntax: rsync [OPTIONS] SOURCE DESTINATION
+
+scp - This command is used to copy files and directories between two systems over the network using SSH. Syntax: scp [OPTIONS] SOURCE DESTINATION
+
+dd - This command is used to copy and convert files between devices or files. Syntax: dd [OPTIONS] SOURCE DESTINATION
+
+tar - This command is used to create archives and extract files from them. Syntax: tar [OPTIONS] SOURCE
+
+cpio - This command is used to create and extract archives. Syntax: cpio [OPTIONS] SOURCE
+
+cpdup - This command is used to copy files and directories with permissions, ownership, and timestamps. Syntax: cpdup [OPTIONS] SOURCE DESTINATION
+
+gcp - This command is used to copy files and directories with progress indicator. Syntax: gcp [OPTIONS] SOURCE DESTINATION
+
+fcp - This command is used to copy files and directories with fast and parallel transfer. Syntax: fcp [OPTIONS] SOURCE DESTINATION
+
+
+
+
+
+
+shell script  commands?
+
+
+echo - Display output to the terminal
+cd - Change directory
+ls - List files in a directory
+mkdir - Create a new directory
+touch - Create a new file
+rm - Remove a file or directory
+cp - Copy a file or directory
+mv - Move or rename a file or directory
+grep - Search for a pattern in a file or output
+sed - Perform text transformations on a file or input
+awk - Process and analyze text data
+chmod - Change file permissions
+ps - Display currently running processes
+kill - Terminate a running process
+ping - Test network connectivity
+curl - Transfer data from or to a server
+ssh - Securely connect to a remote server
+tar - Create or extract compressed archive files
+find - Search for files and directories
+diff - Compare two files or directories.
+
+
